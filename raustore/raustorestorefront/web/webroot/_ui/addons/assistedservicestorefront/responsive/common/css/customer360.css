@@ -1,0 +1,298 @@
+.asm__customer360 {
+    font-family: Dosis, sans-serif;
+}
+
+.asm__customer360 .techne-table{
+    font-family: "Open Sans", sans-serif;
+}
+.asm__customer360 .techne-table th{
+    background-color: #fff;
+    color: #7f90a4;
+}
+.asm__customer360 .techne-table > thead > tr > th{
+    border-width: 1px;
+}
+
+
+.ASM_customer360-modal .asm__customer360 h1{
+    font-size: 32px;
+    font-weight: 300;
+    border-bottom: 1px solid #d4d7dc;
+    padding-bottom: 10px;
+}
+
+.ASM_customer360-modal #cboxClose{
+    font-size: 16px;
+}
+.ASM_customer360-modal #cboxClose:focus{
+    outline: none;
+}
+
+.ASM_customer360-modal .asm__customer360__menu{
+    font-family: "Open Sans", sans-serif;
+    margin-top: 25px;
+}
+
+.ASM_customer360-modal #cboxLoadedContent {
+    margin-top: 0;
+}
+
+.ASM_customer360-modal .asm-customer360-activity-tab .pager th.headerSortDown,
+.ASM_customer360-modal .asm-customer360-activity-tab .pager th.headerSortUp {
+    background-color: #0486e0;
+}
+
+/*Techne Tabs styling v1.0.3*/
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:active {
+    border-width: 0 0 2px;
+    border-color: #0486e0;
+    background: #0486e0;
+    color: #fff;
+}
+.nav-tabs > li > a {
+    transition: background 0.1s ease-out, border 0.1s ease-out;
+    text-transform: uppercase;
+    border-radius: 0;
+    border-width: 0 0 2px;
+    color: #555555; /*override on top of Techne to delete orange default color for a*/
+}
+.nav-tabs > li.active > a {
+    border-width: 0 0 2px;
+    border-color: #0486e0;
+    background-color: transparent;
+}
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:active {
+    color: #0486e0;
+    border-width: 0 0 2px;
+    background: #fff;
+}
+.nav-tabs > li > a:focus,
+.nav-tabs > li > a:active {
+    background: #fff;
+    border-color: #0486e0;
+}
+.nav-tabs.nav-tabs-center,
+.nav-tabs.nav-tabs--center {
+    display: table;
+    margin: 0 auto;
+}
+.nav-tabs.nav-tabs-center > li,
+.nav-tabs.nav-tabs--center > li {
+    text-align: center;
+}
+
+/*Techne Modifier for responsive/mobile tabs*/
+.nav-tabs--responsive {
+    position: relative;
+}
+/*Additional required trigger element*/
+.nav-tabs--responsive .nav-tabs-mobile-caret {
+    display: none;
+}
+@media (max-width: 667px) {
+    .nav-tabs--responsive {
+        background: #fff;
+        display: block !important;
+    }
+    .nav-tabs--responsive li {
+        width: 100%;
+    }
+    .nav-tabs--responsive li:not(.active) {
+        display: none;
+    }
+    .nav-tabs--responsive li:not(.active).active {
+        display: block;
+        background-color: white;
+    }
+    .nav-tabs--responsive li:not(.active).active a:focus,
+    .nav-tabs--responsive li:not(.active).active a:hover,
+    .nav-tabs--responsive li:not(.active).active a:active {
+        background: none;
+        color: #0486e0;
+    }
+    .nav-tabs--responsive li.nav-tabs-mobile-caret {
+        display: block;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        cursor: pointer;
+    }
+    .nav-tabs--responsive li.nav-tabs-mobile-caret a {
+        border: none;
+        background-color: transparent;
+    }
+    .nav-tabs--responsive li.nav-tabs-mobile-caret a:focus,
+    .nav-tabs--responsive li.nav-tabs-mobile-caret a:active {
+        background-color: transparent;
+    }
+    .nav-tabs--responsive.open .nav-tabs-mobile-caret {
+        width: 20%;
+    }
+    .nav-tabs--responsive.open .nav-tabs-mobile-caret .caret {
+        content: "";
+        border-top: 0;
+        border-bottom: 4px dashed;
+    }
+    .nav-tabs--responsive.open li {
+        display: block !important;
+    }
+}
+
+/*End of techne responsive/mobile tabs*/
+
+/*End of Techne Tabs styling v1.0.3*/
+
+/* Tabs content*/
+.ASM_customer360-modal .asm-customer360-tab{
+    position:relative;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+.ASM_customer360-modal p,
+.ASM_customer360-modal a{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+}
+.ASM_customer360-modal .asm-customer360-tab:before{
+    position: absolute;
+    top: 55px;
+    border-bottom: 1px solid #d4d7dc;
+    width: 100%;
+}
+
+.ASM_customer360-modal .asm-customer360-tab.generic{
+    position:relative;
+}
+
+.ASM_customer360-modal .asm-customer360-tab.generic:before{
+    top: 35px;
+}
+
+/*Overrides for Overview Tab -> Summary*/
+.ASM_customer360-modal .asm-customer360-tab.asm-customer360-overview-tab-summary{
+    position:relative;
+}
+
+.ASM_customer360-modal .asm-customer360-tab.asm-customer360-overview-tab-summary:before{
+    top: 35px;
+}
+.ASM_customer360-modal .asm-customer360-tab.asm-customer360-overview-tab-summary .form-group{
+   margin-top: 10px;
+}
+.ASM_customer360-modal .asm-customer360-tab.asm-customer360-overview-tab-summary h3{
+    padding-left: 10px;
+}
+/*End of overrides for Overview Tab -> Summary*/
+
+.ASM_customer360-modal .asm-customer360-tab h3{
+    font-weight: 300;
+    font-family: Dosis, sans-serif;
+}
+.ASM_customer360-modal .asm-customer360-tab .profile-pic{
+    max-width: 120px;
+}
+
+.ASM_customer360-modal a{
+    color: #0486e0;
+}
+.ASM_customer360-modal .asm-customer360-tab {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+.ASM_customer360-modal a:focus{
+    text-decoration: none; /*disable underline for when it is a profile default picture*/
+}
+.ASM_customer360-modal .asm-customer360-tab .row{
+    margin-top: 20px;
+}
+
+.ASM_customer360-modal .asm-customer360-tab label,
+.ASM_customer360-modal .customer360-contact-sub-tab label{
+    text-transform: capitalize;
+    color: #808fa1;
+}
+.ASM_customer360-modal .asm-customer360-tab p{
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.ASM_customer360-modal .customer360-contact-sub-tab{
+    text-transform: capitalize;
+}
+.ASM_customer360-modal .customer360-contact-sub-tab p{
+    font-weight: normal;
+}
+
+.ASM_customer360-modal .default-pic:before {
+    content: '\e801';
+}
+.ASM_customer360-modal .default-pic {
+    font-family: 'asm_icons';
+    color: #A6A6A6;
+    font-size: 120px;
+    line-height: 1.1;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 667px) {
+    .ASM_customer360-modal .asm-customer360-overview-tab:before {
+        border: none;
+    }
+}
+/*need an override of variables from Core ACC, once techne is integrated there can be deleted*/
+.nav-tabs.asm__customer360__menu >li.active > a {
+    color: #0486e0 !important; /*need an override of variables from Core ACC, once techne is integrated there can be deleted*/
+}
+.nav-tabs.asm__customer360__menu >li.active > a:hover,
+.nav-tabs.asm__customer360__menu >li.active > a:focus{
+    color: #fff !important;
+}
+/*end*/
+
+/*Sorting for dates with arrows*/
+.ASM_customer360-modal .asm__customer360 .techne-table > thead > tr > th.pointer{
+    cursor: pointer;
+    position: relative;
+}
+
+.ASM_customer360-modal .headerSortDown:after {
+    font-family: 'asm_icons';
+    content: '\e80f';
+    font-style: normal;
+    font-size: 14px;
+    padding-left: 8px;
+    color: #7f90a4;
+}
+.ASM_customer360-modal .headerSortUp:after {
+    font-family: 'asm_icons';
+    content: '\e80e';
+    font-style: normal;
+    font-size: 14px;
+    padding-left: 8px;
+    color: #7f90a4;
+}
+.ASM_customer360-modal .techne-table th.headerSortDown,
+.ASM_customer360-modal .techne-table th.headerSortUp,
+.asm__customer360 .techne-table > thead > tr > th.header:hover{
+    color: #454a5d;
+}
+/*End of Sorting for dates with arrows*/
+
+@media (max-width: 667px){
+    .ASM_customer360-modal .asm-customer360-tab:before{
+        border: none;
+    }
+}
+
+/*Overview Tab -> Charts*/
+.overview-tab-charts canvas{
+    margin: 0 auto;
+}
+/*End of Overview Tab -> Charts*/

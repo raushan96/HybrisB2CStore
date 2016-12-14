@@ -6,10 +6,10 @@
     <extension name='commerceservicesbackoffice' />
     <extension name='solrfacetsearchbackoffice' />
     <extension name='solrserver' />
-    <extension name='yacceleratorcockpits' />
-    <extension name='yacceleratorinitialdata' />
-    <extension name='yacceleratorfulfilmentprocess' />
-    <extension name='yacceleratorstorefront' />
+    
+    
+   
+    
     <extension name='ycommercewebservices' />
     <extension name='electronicsstore' />
     <extension name='liveeditaddon' />
@@ -39,5 +39,13 @@
     <extension name='promotionengineatddtests' />
     <extension name='commercesearchatddtests' />
     <extension name='textfieldconfiguratortemplateatddtests' />
+    <!-- Custom Electronics Store -->
+    <extension dir="C:\Users\Raushankumar\Documents\Raushan\hyb_6.2\hybris\bin/custom/raustore/raustorefulfilmentprocess"/>
+	<extension dir="C:\Users\Raushankumar\Documents\Raushan\hyb_6.2\hybris\bin/custom/raustore/raustorecockpits"/>
+	<extension dir="C:\Users\Raushankumar\Documents\Raushan\hyb_6.2\hybris\bin/custom/raustore/raustorecore"/>
+	<extension dir="C:\Users\Raushankumar\Documents\Raushan\hyb_6.2\hybris\bin/custom/raustore/raustorefacades"/>
+	<!-- <extension dir="C:\Users\Raushankumar\Documents\Raushan\hyb_6.2\hybris\bin/custom/raustore/raustoretest"/> -->
+	<extension dir="C:\Users\Raushankumar\Documents\Raushan\hyb_6.2\hybris\bin/custom/raustore/raustorestorefront"/>
+	<extension dir="C:\Users\Raushankumar\Documents\Raushan\hyb_6.2\hybris\bin/custom/raustore/raustoreinitialdata"/>
   </extensions>
 </hybrisconfig>
